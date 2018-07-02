@@ -17,7 +17,7 @@ class Index
         return 'hello,' . $name;
     }
     //curl方式提交表单
-    public function ct(){
+   /* public function ct(){
         $url="http://localhost/index/index/testct";
         $postData=[
              'title'=>'使用curl方式发送的标题',
@@ -39,7 +39,7 @@ class Index
 12      curl_close($curl);
 13      //显示获得的数据
 14      print_r($data);
-    }
+    }*/
     public function testct(){
        
     }
