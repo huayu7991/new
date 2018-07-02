@@ -9,7 +9,7 @@ class Index
     }
     public function test(){
         
-        echo 'just a test!';
+        echo phpinfo();
         
     }
     public function hello($name = 'ThinkPHP5')
@@ -24,7 +24,7 @@ class Index
              'content'=>'使用curl方式发送的内容',
         ];
         //初始化
- 2      $curl = curl_init();
+ 2      //$curl = curl_init();
  3      //设置抓取的url
  4      curl_setopt($curl, CURLOPT_URL, $url);
  5      //设置数据发送方式
