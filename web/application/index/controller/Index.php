@@ -9,7 +9,7 @@ class Index
     }
     public function test(){
         
-        echo 'just a test!';
+        echo phpinfo();
         
     }
     public function hello($name = 'ThinkPHP5')
