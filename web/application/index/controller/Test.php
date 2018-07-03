@@ -7,10 +7,7 @@ class Test
 
       private static $obj =null;
 
-      private function __construct(){
-       
-      
-      }
+      private function __construct(){}
 
       public static function single(){
         
@@ -19,8 +16,8 @@ class Test
            self::$obj = new self();
         }
          
-           return self::$obj;
+        return self::$obj;
       }
 }
 
-  $obj =Test::single();
+      $obj =Test::single();
